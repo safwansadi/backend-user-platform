@@ -20,8 +20,8 @@ mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true })
     
 const app = express(); 
 
-const corsOptions = {
-  origin: 'https://user-engagement.netlify.app/',
+const corsOptions = { 
+  origin: 'https://frontend-userplatform-updated.netlify.app',
 };
 
 app.use(cors(corsOptions));
